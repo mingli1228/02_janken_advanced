@@ -1,0 +1,65 @@
+body {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  overflow-x: hidden;
+  position: relative;
+  background: linear-gradient(to right, #fceabb, pink);
+  color: #333;
+}
+
+h1 {
+  font-size: 3em;
+  margin-top: 20px;
+  color: #fff;
+  text-shadow: 2px 2px #00000033;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+.rules {
+  text-align: left;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.jankenArea {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.handStyle {
+  font-size: 80px;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  display: inline-block;
+  transition: transform 0.2s;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.handStyle:hover {
+  transform: scale(1.2);
+}
+
+.comHandStyle {
+  font-size: 100px;
+  height: 100px;
+}
+
+#finalScore {
+  margin-top: 20px;
+  font-size: 2em;
+  font-weight: bold;
+  color: crimson;
+  display: none;
+}
